@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Lesson0 {
   public static int DEFAULT_INTS_QTY = 3;
 
-  static void helloWorld() {
+  static void exercise1() {
     System.out.println("::HELLO WORLD");
   }
 
@@ -56,11 +56,8 @@ public class Lesson0 {
 
     return greatest;
   }
-
-  public static void main(String[] args) {
-    System.out.println("Ex. 0: Log message");
-
-    helloWorld();
+  
+  static void exercise2() {
     System.out.println("Ex. 1: Find max number");
 
     List<Integer> integers = Lesson0.scanInts("Enter numbers");
@@ -68,6 +65,19 @@ public class Lesson0 {
     int greatestNumber = greatest(Lesson0.convertIntListToIntArray(integers));
 
     System.out.println("MAX: " + greatestNumber);
+
+  }
+  
+  static void exercise3() {
+    System.out.println("Ex. 2: Count lowercase vowels");
+  }
+
+  public static void main(String[] args) {
+    System.out.println("Ex. 0: Log message");
+
+    exercise1();
+    exercise2();
+    exercise3();
 
     System.out.println("::FINISH");
 

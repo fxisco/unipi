@@ -58,7 +58,7 @@ public class Lesson0 {
   }
 
   public static void main(String[] args) {
-    System.out.println("Ex. 0");
+    System.out.println("Ex. 0: Log message");
 
     helloWorld();
     System.out.println("Ex. 1: Find max number");
